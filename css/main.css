@@ -66,22 +66,22 @@ body {
   background: #0b1225;
 }
 
-/* line 11, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 .container {
-  width: 1141px;
+  width: 80%;
   height: 1114px;
   margin: 0 auto;
   background: black;
 }
-/* line 17, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 .container .menu ul {
   float: center;
   padding-right: 59px;
 }
-/* line 22, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .container .menu ul li {
   float: left;
-  width: 256px;
+  width: 24%;
   height: 26px;
   background: #4d4c4c;
   margin: 1px;
@@ -89,38 +89,53 @@ body {
   margin-top: 25px;
   padding-top: 5px;
 }
-/* line 31, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 .container .menu ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
-/* line 37, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 .container .menu ul li:hover {
-  float: left;
-  width: 256px;
-  height: 26px;
   background: #2c4484;
-  margin: 1px;
-  text-align: center;
-  margin-top: 25px;
-  padding-top: 5px;
 }
-/* line 48, ../sass/main.scss */
+@media only screen and (max-width: 500px) {
+  /* line 43, ../sass/main.scss */
+  .container .menu ul li {
+    float: initial;
+    width: 100%;
+    height: 26px;
+    background: #4d4c4c;
+    margin: 1px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  /* line 52, ../sass/main.scss */
+  .container .menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  /* line 58, ../sass/main.scss */
+  .container .menu ul li:hover {
+    background: #2c4484;
+  }
+}
+/* line 63, ../sass/main.scss */
 .container .item {
   float: left;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 nav {
   background-image: url("../img/bg_nav.jpg");
 }
-/* line 59, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 nav .logo {
   float: left;
   padding-left: 56px;
 }
-/* line 63, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 nav .logo h1 {
   margin-top: 10px;
   text-align: -10000px;
@@ -128,20 +143,20 @@ nav .logo h1 {
   height: 66px;
   background: url(../img/lsm_slotgame.png);
 }
-/* line 71, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 nav ul {
   padding-right: 59px;
 }
-/* line 74, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 nav ul li {
   float: right;
 }
-/* line 78, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 nav ul .menu-language {
   float: left;
 }
 
-/* line 88, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .navbar {
   width: 1141px;
   height: 86px;
@@ -149,15 +164,24 @@ nav ul .menu-language {
   background-image: url("../img/bg_nav.jpg");
 }
 
-/* line 101, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 .menu {
   padding-left: 40px;
   color: white;
-  width: 1141px;
+  width: 100%;
   height: 100px;
 }
 
-/* line 108, ../sass/main.scss */
+@media only screen and (max-width: 500px) {
+  /* line 124, ../sass/main.scss */
+  .menu {
+    padding-left: 40px;
+    color: white;
+    width: 100%;
+    height: auto;
+  }
+}
+/* line 132, ../sass/main.scss */
 .item {
   padding-left: 40px;
   padding-right: 40px;
@@ -165,7 +189,7 @@ nav ul .menu-language {
   height: 130px;
 }
 
-/* line 115, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 .item .item-list {
   float: left;
   margin-right: 17px;
@@ -174,51 +198,78 @@ nav ul .menu-language {
   color: white;
   background: #2b2b2b;
 }
-/* line 123, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .item .item-list img {
   border: 2px solid #4f4f4f;
   width: 189px;
 }
-/* line 127, ../sass/main.scss */
+/* line 152, ../sass/main.scss */
 .item .item-list img:hover {
   border: 2px solid #dcbc59;
   background: #4f4f4f;
   width: 189px;
 }
-/* line 133, ../sass/main.scss */
+/* line 158, ../sass/main.scss */
 .item .item-list p {
   height: 26px;
   margin-top: 5px;
 }
+@media only screen and (max-width: 500px) {
+  /* line 165, ../sass/main.scss */
+  .item .item-list {
+    float: left;
+    margin-right: 17px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: white;
+    background: #2b2b2b;
+  }
+  /* line 173, ../sass/main.scss */
+  .item .item-list img {
+    border: 2px solid #4f4f4f;
+    width: 189px;
+  }
+  /* line 177, ../sass/main.scss */
+  .item .item-list img:hover {
+    border: 2px solid #dcbc59;
+    background: #4f4f4f;
+    width: 189px;
+  }
+  /* line 183, ../sass/main.scss */
+  .item .item-list p {
+    height: 26px;
+    margin-top: 5px;
+  }
+}
 
-/* line 140, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 .pull-lift {
   float: left;
 }
-/* line 142, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .pull-lift .logo-sub {
   margin: 30px 0px;
   font-size: 25px;
   font-style: oblique;
 }
 
-/* line 151, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .language a {
   text-decoration: none;
   color: red;
 }
-/* line 155, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 .language .language-icon {
   margin-top: 25px;
 }
 
-/* line 161, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 .dropdown {
   margin-top: 35px;
   margin-left: 20px;
 }
 
-/* line 167, ../sass/main.scss */
+/* line 218, ../sass/main.scss */
 .dropdown-menu li {
   top: 100%;
   left: -115px;
