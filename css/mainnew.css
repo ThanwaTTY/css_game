@@ -1,0 +1,471 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media only screen and (min-width: 1141px) {
+  /* line 7, ../sass/mainnew.scss */
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #0b1225;
+    font-size: 16px;
+  }
+
+  /* line 12, ../sass/mainnew.scss */
+  .container {
+    width: 1141px;
+    height: 1114px;
+    margin: 0 auto;
+    background: black;
+    padding: 0px;
+  }
+  /* line 22, ../sass/mainnew.scss */
+  .container .menu ul li {
+    float: left;
+    width: 257px;
+    height: 26px;
+    background: #4d4c4c;
+    margin: 1px;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 5px;
+  }
+  /* line 31, ../sass/mainnew.scss */
+  .container .menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  /* line 37, ../sass/mainnew.scss */
+  .container .menu ul li:hover {
+    background: #2c4484;
+  }
+  /* line 40, ../sass/mainnew.scss */
+  .container .menu ul li:hover {
+    background: #2c4484;
+  }
+  /* line 45, ../sass/mainnew.scss */
+  .container .item {
+    float: left;
+  }
+
+  /* line 54, ../sass/mainnew.scss */
+  nav {
+    background-image: url("../img/bg_nav.jpg");
+  }
+  /* line 56, ../sass/mainnew.scss */
+  nav .logo {
+    float: left;
+    padding-left: 56px;
+  }
+  /* line 60, ../sass/mainnew.scss */
+  nav ul {
+    padding-right: 59px;
+  }
+  /* line 63, ../sass/mainnew.scss */
+  nav ul li {
+    float: right;
+  }
+  /* line 67, ../sass/mainnew.scss */
+  nav ul .menu-language {
+    float: left;
+  }
+
+  /* line 77, ../sass/mainnew.scss */
+  .navbar {
+    width: 1141px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url("../img/bg_nav.jpg");
+    border: unset;
+  }
+
+  /* line 85, ../sass/mainnew.scss */
+  .menu {
+    padding-left: 56px;
+    color: white;
+    width: 100%;
+    height: 100px;
+  }
+
+  /* line 93, ../sass/mainnew.scss */
+  .item {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    height: 130px;
+  }
+  /* line 99, ../sass/mainnew.scss */
+  .item .item-list {
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: white;
+    background: #2b2b2b;
+  }
+  /* line 108, ../sass/mainnew.scss */
+  .item .item-list img {
+    border: 3px solid #4f4f4f;
+    width: 193px;
+  }
+  /* line 112, ../sass/mainnew.scss */
+  .item .item-list img:hover {
+    border: 3px solid #dcbc59;
+    background: #4f4f4f;
+    width: 193px;
+  }
+  /* line 118, ../sass/mainnew.scss */
+  .item .item-list p {
+    height: 26px;
+    margin-top: 5px;
+  }
+
+  /* line 125, ../sass/mainnew.scss */
+  .pull-lift {
+    float: left;
+  }
+  /* line 127, ../sass/mainnew.scss */
+  .pull-lift .logo-sub {
+    margin: 30px 0px;
+    font-size: 25px;
+    font-style: oblique;
+  }
+
+  /* line 136, ../sass/mainnew.scss */
+  .language a {
+    text-decoration: none;
+    color: red;
+  }
+  /* line 140, ../sass/mainnew.scss */
+  .language .language-icon {
+    margin-top: 25px;
+  }
+
+  /* line 146, ../sass/mainnew.scss */
+  .dropdown {
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  /* line 152, ../sass/mainnew.scss */
+  .dropdown-menu li {
+    top: 100%;
+    left: -115px;
+    z-index: 1000;
+    float: none;
+    min-width: 160px;
+    padding: 5px 0;
+    /* margin: 2px 0 0; */
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* border: 1px solid #ccc; */
+    /* border: 1px solid rgba(0, 0, 0, 0.15); */
+    border-radius: 4px;
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); */
+  }
+}
+@media only screen and (max-width: 1141px) {
+  /* line 176, ../sass/mainnew.scss */
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: black;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1141px) and (max-width: 495px) {
+  /* line 182, ../sass/mainnew.scss */
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: black;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  /* line 188, ../sass/mainnew.scss */
+  .container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  /* line 194, ../sass/mainnew.scss */
+  .container .menu ul {
+    float: center;
+    padding-right: 59px;
+  }
+  /* line 197, ../sass/mainnew.scss */
+  .container .menu ul li {
+    float: left;
+    width: 24%;
+    height: 26px;
+    background: #4d4c4c;
+    margin: 1px;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 5px;
+  }
+  /* line 206, ../sass/mainnew.scss */
+  .container .menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  /* line 212, ../sass/mainnew.scss */
+  .container .menu ul li:hover {
+    background: #2c4484;
+  }
+}
+@media only screen and (max-width: 1141px) and (max-width: 380px) {
+  /* line 217, ../sass/mainnew.scss */
+  .container .menu ul {
+    padding-right: 9px;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  /* line 221, ../sass/mainnew.scss */
+  .container .item {
+    float: left;
+  }
+
+  /* line 228, ../sass/mainnew.scss */
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /* line 232, ../sass/mainnew.scss */
+  nav {
+    background-image: url("../img/bg_nav.jpg");
+  }
+  /* line 234, ../sass/mainnew.scss */
+  nav .logo {
+    max-width: 100%;
+    float: left;
+    padding-left: 56px;
+  }
+  /* line 238, ../sass/mainnew.scss */
+  nav .logo img {
+    margin-top: 10px;
+    text-align: -10000px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1141px) and (max-width: 495px) {
+  /* line 246, ../sass/mainnew.scss */
+  nav .logo img {
+    margin-top: 30px;
+    text-align: -10000px;
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  /* line 256, ../sass/mainnew.scss */
+  nav ul {
+    padding-right: 59px;
+  }
+  /* line 259, ../sass/mainnew.scss */
+  nav ul li {
+    float: right;
+  }
+  /* line 263, ../sass/mainnew.scss */
+  nav ul .menu-language {
+    float: left;
+  }
+}
+@media only screen and (max-width: 1141px) and (max-width: 380px) {
+  /* line 268, ../sass/mainnew.scss */
+  nav .logo {
+    padding-left: 9px;
+  }
+  /* line 271, ../sass/mainnew.scss */
+  nav ul {
+    padding-right: 9px;
+  }
+}
+
+@media only screen and (max-width: 1141px) {
+  /* line 278, ../sass/mainnew.scss */
+  .navbar {
+    width: auto;
+    height: 86px;
+    margin: 0 auto;
+    background-image: url("../img/bg_nav.jpg");
+    border: unset;
+  }
+
+  /* line 286, ../sass/mainnew.scss */
+  .menu {
+    padding-left: 56px;
+    color: white;
+    width: 100%;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 1141px) and (max-width: 380px) {
+  /* line 294, ../sass/mainnew.scss */
+  .menu {
+    padding-left: 9px;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  /* line 299, ../sass/mainnew.scss */
+  .item {
+    padding-left: 56px;
+    width: 100%;
+    height: 130px;
+  }
+
+  /* line 307, ../sass/mainnew.scss */
+  .item .item-list {
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: white;
+    background: #2b2b2b;
+  }
+  /* line 316, ../sass/mainnew.scss */
+  .item .item-list img {
+    border: 3px solid #4f4f4f;
+    width: 193px;
+  }
+  /* line 320, ../sass/mainnew.scss */
+  .item .item-list img:hover {
+    border: 3px solid #dcbc59;
+    background: #4f4f4f;
+    width: 193px;
+  }
+  /* line 326, ../sass/mainnew.scss */
+  .item .item-list p {
+    height: 26px;
+    margin-top: 5px;
+  }
+
+  /* line 333, ../sass/mainnew.scss */
+  .pull-lift {
+    float: left;
+  }
+  /* line 335, ../sass/mainnew.scss */
+  .pull-lift .logo-sub {
+    margin: 30px 0px;
+    font-size: 1.2em;
+    font-style: oblique;
+  }
+}
+@media only screen and (max-width: 1141px) and (max-width: 629px) {
+  /* line 342, ../sass/mainnew.scss */
+  .pull-lift {
+    float: left;
+    margin: 30px 0px;
+    display: none;
+  }
+  /* line 346, ../sass/mainnew.scss */
+  .pull-lift .logo-sub {
+    margin: 30px 0px;
+    font-size: 1.2em;
+    font-style: oblique;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  /* line 354, ../sass/mainnew.scss */
+  .dropdown {
+    position: unset;
+  }
+
+  /* line 357, ../sass/mainnew.scss */
+  .dropdown {
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  /* line 362, ../sass/mainnew.scss */
+  .open > .dropdown-menu {
+    display: block;
+    margin-left: 72%;
+  }
+
+  /* line 367, ../sass/mainnew.scss */
+  .dropdown-menu li {
+    top: 100%;
+    left: -115px;
+    z-index: 1000;
+    float: none;
+    min-width: 160px;
+    padding: 5px 0;
+    /* margin: 2px 0 0; */
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* border: 1px solid #ccc; */
+    /* border: 1px solid rgba(0, 0, 0, 0.15); */
+    border-radius: 4px;
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); */
+  }
+}
